@@ -1,13 +1,4 @@
 
 
-
-//export type APICall = (req: any, res: any) => any
  
-
-export default class Plugin { 
-
-   constructor( ) {
-     
-  }
-    
-}
+export {importFromSVG,exportToSVG} from "./lib/vvg-tools";  
